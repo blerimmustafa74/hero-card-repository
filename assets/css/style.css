@@ -23,7 +23,7 @@ h1,h2,h3,h4,h5,h6,p{
     display: inline-block;
     width: 100%;
     font-family: "Ubuntu-Medium";
-        text-align: center;
+    text-align: center;
 }
 .hero .hero__overlay nav ul li{
     display: inline-block;
@@ -36,7 +36,9 @@ h1,h2,h3,h4,h5,h6,p{
 }
 .hero .hero__overlay nav ul li a:hover{
     color: rgb(255, 94, 0);
-    
+}
+.hero .hero__overlay nav ul li .active{
+    color: rgb(255, 94, 0);
 }
 .hero{
     width: 100%;
