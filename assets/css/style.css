@@ -83,8 +83,9 @@ p {
   background-color: rgb(255, 94, 0);
 }
 .hero__menu {
-  width: 100%;
+  width: 100%;  
   height: 100vh;
+  /* background-size: 100% 100%; */
   background-image: url(../images/burger.jfif);
   background-repeat: no-repeat;
   background-position: center;
@@ -177,6 +178,31 @@ p {
     color: rgb(255, 94, 0);
 }
 .products__cards .products__cards__inner .products__cards__img img:hover{
+
     border: 1px solid rgb(255, 94, 0);
  
 }
+.products__cards .products__cards__inner .products__cards__img{
+    position: relative;
+  }
+  .products__cards .products__cards__inner .products__cards__img span{
+    position: absolute;
+    width: 98%;
+  }
+  .products__cards .products__cards__inner .products__cards__img span h2{
+      text-align: center;
+      font-size: 30px;
+      padding-top: 90px;
+      padding-bottom: 135px;
+      height: 45px;
+      color: #fff;
+      background-color: rgba(0, 0, 0, 0.6);
+      border-top-right-radius: 40px;
+      border-bottom-left-radius: 40px;
+      opacity: 0;
+      transition: 0.2s;
+  }
+  .products__cards .products__cards__inner .products__cards__img span h2:hover{
+    opacity: 1;
+  }
+  
